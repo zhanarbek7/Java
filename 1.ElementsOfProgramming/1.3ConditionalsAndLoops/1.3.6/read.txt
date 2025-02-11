@@ -1,0 +1,11 @@
+1) IEEE 754 - standard for fractional numbers is used
+
+Float - single precision
+1 bit → Sign Bit (0 for positive, 1 for negative)
+8 bits → Exponent (stores exponent with a bias of 127)
+23 bits → Mantissa (Fraction) (stores the fractional part of the number, without the leading 1)
+
+Double - double precision
+1 bit → Sign Bit (0 for positive, 1 for negative)
+11 bits → Exponent (stores exponent with a bias of 1023)
+52 bits → Mantissa (Fraction) (stores the fractional part, without the leading 1)
