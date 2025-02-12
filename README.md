@@ -3,7 +3,7 @@
 ## So I just skipped the parts what I already know very good
 
 Done: 
-1 - Elements of Programming
-1.1 Your first Program
-1.2 Built-in Types of Data
-1.3 Conditionals and Loops
+1 - Elements of Programming  
+1.1 Your first Program  
+1.2 Built-in Types of Data  
+1.3 Conditionals and Loops  
