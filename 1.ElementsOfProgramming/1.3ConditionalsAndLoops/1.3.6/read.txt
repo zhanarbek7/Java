@@ -9,3 +9,45 @@ Double - double precision
 1 bit → Sign Bit (0 for positive, 1 for negative)
 11 bits → Exponent (stores exponent with a bias of 1023)
 52 bits → Mantissa (Fraction) (stores the fractional part, without the leading 1)
+
+
+Some:
+Newtons method formula:
+📏 "New guess = (Guess + Number / Guess) ÷ 2" (for square roots)
+
+Epsilon number
+
+1st iteration: 
+(2 + 2/2) / 2 = 1.5
+(1.5 + 2/1.5) / 2 = 1.4166
+(1.4166 + 2 /1.4166) / 2 = 1.414215572
+(1.414215572 + 2/1.414215572) / 2 = 1.414213562
+
+
+write down here its formula and iteration steps for number 25
+while(t - n/t > epsil * t ) {
+t = (t+c/t)/2
+}
+
+n given is 25
+
+1st iteration: 
+t becomes 13
+
+condition = (13 - 25/13)= 11.07692 > 0.00001 * 13 ‎ = 0.00013	
+2nd iteration
+t becomes = 6.666933
+
+condition = (6.666933 - 25/6.666933) = 2.917083 > 0.00006669
+3rd iteration
+t becomes =5.2083
+
+condition = (5.2083 - 25/5.2083)  = 0.408269 > 0.000052083
+4th iteration
+t becomes =5.0041654
+
+condition=(5.0041654 - 25/5.0041654) = 0.008327 > 0.000050042
+5th iteration
+t becomes=5.0000017
+
+condition(5.0000017 - 25/5.0000017) = 0.0000034 < 0.00005
